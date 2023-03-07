@@ -1,0 +1,82 @@
+/* .signup {
+  border: 1px solid red;
+  height: 100vh;
+} */
+.signup > div {
+  /* height: 600px; */
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+/* .signup > div > div {
+   width: 100%; 
+} */
+.signup > div > div > div:first-child {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.signup > div > div > div:last-child > h4 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.signup > div > div > div:last-child > p {
+  margin-top: 0px;
+  font-size: 14px;
+}
+.signup-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.signup-field > div {
+  width: 100%;
+  /* border: 1px solid blue; */
+  margin-bottom: 14px;
+}
+.signup-field div > p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.signup-field div > input {
+  width: 100%;
+  padding: 14px 0px 14px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  /* box sizing: border-box given coz input was overflowing the container */
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 15px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signup-field > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+.signup-field > div:last-child > p:first-child {
+  color: gray;
+  margin-right: 5px;
+}
+.signup-field-link {
+  text-decoration: none;
+  color: black;
+}
+.signup-field > div:last-child > p:last-child {
+  font-weight: bold;
+}
